@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 3000
 
 # Comando para iniciar a API
-CMD ["npm", "start"] 
+CMD ["node", "src/server.js"]
